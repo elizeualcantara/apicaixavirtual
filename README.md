@@ -33,7 +33,8 @@ Informações sobre o acesso autorizado via API Caixa Virtual:
 
 3. Documentação para a geração de Token JWT se encontra no arquivo geracao_token.txt
 
-4. Exemplo do Token JWT para uso para API de Acesso a Caixa 10, para uso via API no Header Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
+4. Exemplo do Token JWT para uso para API de Acesso a Caixa 10, para uso via API no Header Authorization: 
+###### eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
 
 * * * * * * * * * * 
 
