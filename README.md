@@ -49,8 +49,8 @@ https://documenter.getpostman.com/view/13763433/TVsoHVxt
 
 1. Baixar via GIT: git clone https://github.com/elizeualcantara/apicaixavirtual.git
 2. Ambiente com Apache , Mysql e PHP 5.6 ou superior
-3. Rodar o arquivo Banco.sql para criar a estrutura do banco de dados, e o arquivo para dados de exemplo Dados.sql
-4. Acessar o Server Local, via caminho http://localhost:8080/ [pasta] /api/resumo , para testes.
+3. Rodar o arquivo Banco.sql para criar a estrutura do banco de dados, e o arquivo Dados.sql para dados de exemplo 
+4. Acessar o Server Local, via caminho http://localhost:8080/ [pasta] /api/resumo , para testes e ler a documentação.
 
 * * * * * * * * * * 
 
