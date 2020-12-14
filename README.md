@@ -1,4 +1,4 @@
-API Caixa Virtual
+# API Caixa Virtual
 
 _______
 
@@ -19,7 +19,7 @@ Resumo Diário (Extrato com Saldo Atual e Movimentações do dia Atual, referent
 
 * * * * * * * * * * 
 
-AUTENTICAÇÃO POR TOKEN:
+# AUTENTICAÇÃO POR TOKEN:
 
 Informações sobre o acesso autorizado via API Caixa Virtual:
  
@@ -35,14 +35,14 @@ Exemplo do Token JWT para uso para API de Acesso a Caixa 10, para uso via API no
 
 * * * * * * * * * * 
 
-DOCUMENTAÇÃO
+# DOCUMENTAÇÃO
 
 Toda documentação da API Caixa Virtual está disponível no Postman, através do link:
 https://documenter.getpostman.com/view/13763433/TVsoHVxt
 
 * * * * * * * * * * 
 
-INSTALAÇÃO:
+# INSTALAÇÃO:
 
 1. Baixar via GIT: git clone https://github.com/elizeualcantara/apicaixavirtual.git
 2. Ambiente com Apache , Mysql e PHP 5.2
@@ -51,7 +51,7 @@ INSTALAÇÃO:
 
 * * * * * * * * * * 
 
-ALGUMAS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS (Veja a documentação completa no link https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
+# ALGUMAS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS (Veja a documentação completa no link https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
 
 Ver Resumo e Saldo Atual:
 http://localhost:8080/rest/api/resumo
