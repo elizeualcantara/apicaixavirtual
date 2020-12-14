@@ -2,7 +2,7 @@ API Caixa Virtual
 
 _______
 
-A API Caixa Virtual, tem por objetivo auxiliar na gestão das movimentações diárias de caixa d e uma empresa ou loja, com lançamento de Entradas e Saídas, com atualização automática do Saldo do caixa, de um ou mais caixas.
+A API Caixa Virtual, tem por objetivo auxiliar na gestão das movimentações diárias de caixa de uma empresa ou loja, com lançamentos de Entradas e Saídas, com atualização automática do Saldo do caixa, podendo gerenciar um ou mais caixas através da API.
 
 
 Os recursos da API Caixa Virtual compreende funcionalidades referente:
@@ -44,12 +44,10 @@ https://documenter.getpostman.com/view/13763433/TVsoHVxt
 
 INSTALAÇÃO:
 
-Baixar via GIT:
-git clone https://github.com/elizeualcantara/apicaixavirtual.git
-
-Programas Necessários: Apache , Mysql e PHP 5.2
-Rodar o arquivo Banco.sql para criar a estrutura do banco de dados, e o arquivo para dados de exemplo Dados.sql
-Acessar o caminho http://localhost:8080/ [pasta] /api/resumo , para testes
+1. Baixar via GIT: git clone https://github.com/elizeualcantara/apicaixavirtual.git
+2. Ambiente com Apache , Mysql e PHP 5.2
+3. Rodar o arquivo Banco.sql para criar a estrutura do banco de dados, e o arquivo para dados de exemplo Dados.sql
+4. Acessar o Server Local, via caminho http://localhost:8080/ [pasta] /api/resumo , para testes.
 
 * * * * * * * * * * 
 
