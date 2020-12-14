@@ -19,7 +19,7 @@ Resumo Diário (Extrato com Saldo Atual e Movimentações do dia Atual, referent
 
 * * * * * * * * * * 
 
-# AUTENTICAÇÃO POR TOKEN:
+## AUTENTICAÇÃO POR TOKEN:
 
 Informações sobre o acesso autorizado via API Caixa Virtual:
  
@@ -42,7 +42,7 @@ https://documenter.getpostman.com/view/13763433/TVsoHVxt
 
 * * * * * * * * * * 
 
-# INSTALAÇÃO:
+### INSTALAÇÃO:
 
 1. Baixar via GIT: git clone https://github.com/elizeualcantara/apicaixavirtual.git
 2. Ambiente com Apache , Mysql e PHP 5.2
