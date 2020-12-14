@@ -27,9 +27,9 @@ Informações sobre o acesso autorizado via API Caixa Virtual:
 
 2. Para uso da API , é necessário a Autorização do tipo "Bearer Token", usando os dados para Autenticacao Token JWT:
 
-$header = [ 'alg' => 'HS256', 'typ' => 'JWT' ]; 
-$payload = [ 'iss' => 'http://elizeu.com.br', 'name' => 'TecnoSpeed', 'email' => 'elizeu@elizeu.com.br' ]; 
-$senha_api_loja_10 = "ewrx0865720i12e7pies92g4yiim4p";
+-[x] $header = [ 'alg' => 'HS256', 'typ' => 'JWT' ]; 
+-[x] $payload = [ 'iss' => 'http://elizeu.com.br', 'name' => 'TecnoSpeed', 'email' => 'elizeu@elizeu.com.br' ]; 
+-[x] $senha_api_loja_10 = "ewrx0865720i12e7pies92g4yiim4p";
 
 3. Documentação para a geração de Token JWT se encontra no arquivo geracao_token.txt
 
