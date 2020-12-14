@@ -48,14 +48,14 @@ https://documenter.getpostman.com/view/13763433/TVsoHVxt
 ### INSTALAÇÃO:
 
 1. Baixar via GIT: git clone https://github.com/elizeualcantara/apicaixavirtual.git
-2. Ambiente com Apache , Mysql e PHP 5.6
+2. Ambiente com Apache , Mysql e PHP 5.6 ou superior
 3. Rodar o arquivo Banco.sql para criar a estrutura do banco de dados, e o arquivo para dados de exemplo Dados.sql
 4. Acessar o Server Local, via caminho http://localhost:8080/ [pasta] /api/resumo , para testes.
 
 * * * * * * * * * * 
 
 ### ALGUMAS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS 
-#### (Veja a documentação completa no link https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
+###### (Veja toda as opções na documentação https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
 
 Ver Resumo e Saldo Atual:
 http://localhost:8080/rest/api/resumo
