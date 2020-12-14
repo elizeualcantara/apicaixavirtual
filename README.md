@@ -8,14 +8,14 @@ A API Caixa Virtual, tem por objetivo auxiliar na gestão das movimentações di
 Os recursos da API Caixa Virtual compreende funcionalidades referente:
 
 
-Categorias (de Entradas e Saídas)
-Usuários
-Formas de Pagamentos (a Credores)
-Formas de Receber (de Clientes)
-Contas a Pagar (de Credores ou Saídas)
-Contas a Receber (de Clientes ou Entradas)
-Movimentações de Entradas e Saídas
-Resumo Diário (Extrato com Saldo Atual e Movimentações do dia Atual, referente a Entrada e Saída na data corrente)
+- Categorias (de Entradas e Saídas)
+- Usuários
+- Formas de Pagamentos (a Credores)
+- Formas de Receber (de Clientes)
+- Contas a Pagar (de Credores ou Saídas)
+- Contas a Receber (de Clientes ou Entradas)
+- Movimentações de Entradas e Saídas
+- Resumo Diário (Extrato com Saldo Atual e Movimentações do dia Atual, referente a Entrada e Saída na data corrente)
 
 * * * * * * * * * * 
 
