@@ -51,7 +51,7 @@ INSTALAÇÃO:
 
 * * * * * * * * * * 
 
-ALGUMAS URLS AMIGÁVEIS PARA CONSULTAS E LISTAGENS PRINCIPAIS (Veja a documentação completa no link https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
+ALGUMAS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS (Veja a documentação completa no link https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
 
 Ver Resumo e Saldo Atual:
 http://localhost:8080/rest/api/resumo
