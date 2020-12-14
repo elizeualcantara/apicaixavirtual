@@ -54,7 +54,7 @@ https://documenter.getpostman.com/view/13763433/TVsoHVxt
 
 * * * * * * * * * * 
 
-### ALGUMAS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS 
+### ALGUNS EXEMPLOS PARA CONSULTAS E LISTAGENS PRINCIPAIS 
 ###### (Veja toda as opções na documentação https://documenter.getpostman.com/view/13763433/TVsoHVxt ) :
 
 Ver Resumo e Saldo Atual:
