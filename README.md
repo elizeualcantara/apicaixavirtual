@@ -23,15 +23,15 @@ Os recursos da API Caixa Virtual compreende funcionalidades referente:
 
 Informações sobre o acesso autorizado via API Caixa Virtual:
  
-Cada Caixa tem acesso protegido usando a API através do uso de Token, que dá a permissão de acesso somente aos dados individuais do seu respectivo Caixa.
+1. Cada Caixa tem acesso protegido usando a API através do uso de Token, que dá a permissão de acesso somente aos dados individuais do seu respectivo Caixa.
 
-Para uso da API , é necessário a Autorização do tipo "Bearer Token", usando os dados para Autenticacao Token JWT:
+2. Para uso da API , é necessário a Autorização do tipo "Bearer Token", usando os dados para Autenticacao Token JWT:
 
 $header = [ 'alg' => 'HS256', 'typ' => 'JWT' ]; $payload = [ 'iss' => 'http://elizeu.com.br', 'name' => 'TecnoSpeed', 'email' => 'elizeu@elizeu.com.br' ]; $senha_api_loja_10 = "ewrx0865720i12e7pies92g4yiim4p";
 
-Documentação para a geração de Token JWT se encontra no arquivo geracao_token.txt
+3. Documentação para a geração de Token JWT se encontra no arquivo geracao_token.txt
 
-Exemplo do Token JWT para uso para API de Acesso a Caixa 10, para uso via API no Header Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
+4. Exemplo do Token JWT para uso para API de Acesso a Caixa 10, para uso via API no Header Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
 
 * * * * * * * * * * 
 
