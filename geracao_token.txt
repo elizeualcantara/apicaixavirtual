@@ -1,0 +1,38 @@
+////////////////////////////////////////////////////////////////////////////
+////  SCRIPT PHP PARA GERACAO DO TOKEN PARA AUTORIZAR O USO DA API   ////
+////////////////////////////////////////////////////////////////////////////
+
+
+//// SENHA INFORMADA PELA EMPRESA PARA USO DA API, PARA ACESSO ESPECIFICO AO CAIXA No 10
+$senha_api_caixa_10 = "ewrx0865720i12e7pies92g4yiim4p";
+
+$header = [
+   'alg' => 'HS256',
+   'typ' => 'JWT'
+];
+$header = json_encode($header);
+$header = base64_encode($header);
+
+
+//// SEUS DADOS DE IDENTIFICACAO QUE POSSUI A AUTORIZACAO DE USO DA API
+$payload = [
+   'iss'   => 'http://elizeu.com.br',
+   'name'  => 'TecnoSpeed',
+   'email' => 'elizeu@elizeu.com.br'
+];
+$payload = json_encode($payload);
+$payload = base64_encode($payload);
+
+$signature = hash_hmac('sha256',"$header.$payload",$senha_api_caixa_10,true);
+$signature = base64_encode($signature);
+
+$token = "$header.$payload.$signature";
+
+echo $token;
+
+/*
+Token JWT para uso para API de Acesso a Loja 1:
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
+*/
+
+
