@@ -18,16 +18,16 @@
             if ($_SERVER['SERVER_NAME'] == "localhost")
             {
                  $this->host = "localhost";
-                 $this->database_name = "tecnospeed";
+                 $this->database_name = "apicaixavirtual";
                  $this->username = "root";
                  $this->password = "secret";
             }
             else
             {
-                 $this->host = "localhost";
-                 $this->database_name = "elizeuco_tecno";
-                 $this->username = "elizeuco_tecno";
-                 $this->password = "YySc70;FrdE;";
+                 $this->host = "123.456.789.012";
+                 $this->database_name = "aaaaa";
+                 $this->username = "bbbbb";
+                 $this->password = "ccccc";
             }
         }
 
