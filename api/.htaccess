@@ -1,0 +1,64 @@
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+
+# REDIRECIONA: resumo  >>  resumo.php
+RewriteRule ^resumo\/?$ resumo.php [L]
+
+
+# REDIRECIONA: usuario  >>  listar_usuarios.php
+RewriteRule ^usuario\/?$ listar_usuarios.php [L]
+
+# REDIRECIONA: usuario/10  >>  consultar_usuario.php?usuario_id=10
+RewriteRule ^usuario/([^/]*)$ consultar_usuario.php?usuario_id=$1 [L]
+
+# REDIRECIONA:criar_usuario  >>  criar_usuario.php
+RewriteRule ^criar_usuario\/?$ criar_usuario.php [L]
+
+# REDIRECIONA:atualizar_usuario  >>  atualizar_usuario.php
+RewriteRule ^atualizar_usuario\/?$ atualizar_usuario.php [L]
+
+# REDIRECIONA:excluir_usuario  >>  excluir_usuario.php
+RewriteRule ^excluir_usuario\/?$ excluir_usuario.php [L]
+
+
+
+RewriteRule ^categoria\/?$ listar_categorias.php [L]
+RewriteRule ^categoria/([^/]*)$ consultar_categoria.php?categoria_id=$1 [L]
+RewriteRule ^criar_categoria\/?$ criar_categoria.php [L]
+RewriteRule ^atualizar_categoria\/?$ atualizar_categoria.php [L]
+RewriteRule ^excluir_categoria\/?$ excluir_categoria.php [L]
+
+RewriteRule ^movimentacao\/?$ listar_movimentacoes.php [L]
+RewriteRule ^movimentacao/([^/]*)$ consultar_movimentacao.php?movimentacao_id=$1 [L]
+
+RewriteRule ^contapagar\/?$ listar_contapagar.php [L]
+RewriteRule ^contapagar/([^/]*)$ consultar_contapagar.php?contapagar_id=$1 [L]
+RewriteRule ^criar_contapagar\/?$ criar_contapagar.php [L]
+RewriteRule ^atualizar_contapagar\/?$ atualizar_contapagar.php [L]
+RewriteRule ^excluir_contapagar\/?$ excluir_contapagar.php [L]
+
+RewriteRule ^contareceber\/?$ listar_contareceber.php [L]
+RewriteRule ^contareceber/([^/]*)$ consultar_contareceber.php?contareceber_id=$1 [L]
+RewriteRule ^criar_contareceber\/?$ criar_contareceber.php [L]
+RewriteRule ^atualizar_contareceber\/?$ contareceber.php [L]
+RewriteRule ^excluir_contareceber\/?$ excluir_contareceber.php [L]
+
+RewriteRule ^caixa\/?$ listar_caixas.php [L]
+RewriteRule ^caixa/([^/]*)$ consultar_caixa.php?caixa_id=$1 [L]
+RewriteRule ^criar_caixa\/?$ criar_caixa.php [L]
+RewriteRule ^atualizar_caixa\/?$ atualizar_caixa.php [L]
+
+RewriteRule ^formapgto\/?$ listar_formapgtos.php [L]
+RewriteRule ^criar_formapgto\/?$ criar_formapgto.php [L]
+
+RewriteRule ^formarecebimento\/?$ listar_formarecebimentos.php [L]
+RewriteRule ^criar_formarecebimento\/?$ criar_formarecebimento.php [L]
+
+
+
+
+
+
