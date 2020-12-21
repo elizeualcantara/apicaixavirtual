@@ -31,7 +31,7 @@ $token = "$header.$payload.$signature";
 echo $token;
 
 /*
-Token JWT para uso para API de Acesso a Loja 1:
+Token JWT para uso para API de Acesso ao CAIXA No 10:
 eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwOlwvXC9lbGl6ZXUuY29tLmJyIiwibmFtZSI6IlRlY25vU3BlZWQiLCJlbWFpbCI6ImVsaXpldUBlbGl6ZXUuY29tLmJyIn0=.aKF5hOMEJbdAwaxEKLBxEK6dTKbbkcUMcOj1NwW+0Lw=
 */
 
