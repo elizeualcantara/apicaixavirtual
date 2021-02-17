@@ -15,7 +15,7 @@ $header = base64_encode($header);
 
 $payload = [
    'iss'   => 'http://elizeu.com.br',
-   'name'  => 'TecnoSpeed',
+   'name'  => 'NomeEmpresa',
    'email' => 'elizeu@elizeu.com.br'
 ];
 $payload = json_encode($payload);
