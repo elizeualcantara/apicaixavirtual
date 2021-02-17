@@ -17,7 +17,7 @@ $header = base64_encode($header);
 //// SEUS DADOS DE IDENTIFICACAO QUE POSSUI A AUTORIZACAO DE USO DA API
 $payload = [
    'iss'   => 'http://elizeu.com.br',
-   'name'  => 'TecnoSpeed',
+   'name'  => 'NomeEmpresa',
    'email' => 'elizeu@elizeu.com.br'
 ];
 $payload = json_encode($payload);
